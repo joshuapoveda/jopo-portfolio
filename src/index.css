@@ -5,7 +5,7 @@
 
 @layer components {
     .text-box {
-        @apply  sm:bg-red-800 bg-blue-600 m-10
+        @apply  sm:bg-red-800 bg-gray-300 m-10 h-60 lg:text-base text-sm
     }
-    
+
 }
