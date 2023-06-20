@@ -10,10 +10,10 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 function App() {
   return (
     <>
-      <div className="flex flex-col h-screen justify-between border-4 border-red-700">
+      <div className="flex flex-col h-screen justify-between border-4 border-green">
         <BrowserRouter>
           <Nav></Nav>
-          <div className="border-4 h-full border-blue-700">
+          <div className="flex border-4 h-full border-blue-700 bg-peach">
             <Routes>
               <Route path="/" element={<Home />} />
 
