@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@layer components {
+/* 
+@layer utilities {
     .text-box {
-        @apply  m-10 h-60 lg:text-base text-sm
+        @apply  border-4 border-red-800 m-10 h-60 lg:text-base text-sm
     }
 
-}
+} */
